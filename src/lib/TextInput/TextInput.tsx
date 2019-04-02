@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import "./TextInput.css";
 
 export const TextInput = (props:{ type?:string, label:string, value?:string, placeholder:string, onChange?:(s:string)=>void }) => (
